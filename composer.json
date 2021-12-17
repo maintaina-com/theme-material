@@ -1,0 +1,30 @@
+{
+    "name": "horde/theme-material",
+    "description": "Horde Material UI Theme",
+    "type": "horde-theme",
+    "homepage": "https://www.horde.org/apps/horde",
+    "license": "LGPL-2",
+    "authors": [
+        {
+            "name": "Ralf Lang",
+            "email": "lang@b1-systems.de",
+            "role": "lead"
+        }
+    ],
+    "time": "2021-12-17",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://horde-satis.maintaina.com/"
+        }
+    ],
+    "require": {
+        "horde/horde-installer-plugin": "dev-FRAMEWORK_6_0 || *",
+        "php": "^7 || ^8",
+        "horde/horde": "* || dev-FRAMEWORK_6_0"
+    },
+    "require-dev": {},
+    "suggest": {},
+    "autoload": [],
+    "autoload-dev": []
+}
