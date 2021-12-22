@@ -1606,13 +1606,17 @@ a.horde-mainnavi:link, a.horde-mainnavi:visited, a.horde-mainnavi:active {
     color: #fff;
 }
 
+.horde-navipoint {
+  padding: 0 20px 0 20px;
+}
+
 .horde-point-center:hover, .horde-navpoint:hover {
    background-image: none;
    background-color: var(--primary-variant);
 }
 
 .horde-point-center-active {
-    border-bottom: 1px solid var(--on-primary) !important;
+    border-bottom: 4px solid var(--on-primary) !important;
 
 }
 
@@ -1624,29 +1628,28 @@ a.horde-mainnavi:link, a.horde-mainnavi:visited, a.horde-mainnavi:active {
 .horde-dropdown ul {
   background-image: none;
   background-color: var(--primary);
-
 }
 
 .horde-point-right-active {
   background-image: none;
-    background-color: var(--primary);
+/*    background-color: var(--primary);
     border-top-right-radius: var(--corner-radius);
-    border-bottom-right-radius: var(--corner-radius);
-
+    border-bottom-right-radius: var(--corner-radius);*/
+    border-bottom: 4px solid var(--on-primary) !important;
 }
 
 .horde-point-left-active {
   background-image: none;
-  background-color: var(--primary);
+/*  background-color: var(--primary);
   border-top-left-radius: var(--corner-radius);
-  border-bottom-left-radius: var(--corner-radius);
-
+  border-bottom-left-radius: var(--corner-radius);*/
+  border-bottom: 4px solid var(--on-primary) !important;
 }
 
 .horde-point-center:hover, a.horde-mainnavi:hover,
 a.horde-mainnavi-active:link, a.horde-mainnavi-active:visited,
 a.horde-mainnavi-active:active {
-    color: #7eaa42;
+    color: var(--on-primary);
     text-decoration: none;
 }
 
@@ -1694,7 +1697,12 @@ horde-point-center:hover, a.horde-mainnavi:hover, a.horde-mainnavi-active:link, 
     position: absolute;
     display: none;
     top: 34px;
-    margin-left: -10px;
+    margin-left: -20px;
+    border: 1px solid var(--on-primary);
+    background-color: var(--primary-variant);
+    padding-top: 9px;
+    z-index: 10;
+    min-width: 120px;
 }
 .horde-dropdown ul li ul {
     margin-top: -25px;
@@ -1716,7 +1724,7 @@ horde-point-center:hover, a.horde-mainnavi:hover, a.horde-mainnavi-active:link, 
     margin: 0 0 0 10px;
 }
 .horde-drowdown-str:hover a {
-    color: #7eaa42;
+    color: var(--on-primary);
 }
 
 #horde-head {
@@ -1753,26 +1761,29 @@ horde-point-center:hover, a.horde-mainnavi:hover, a.horde-mainnavi-active:link, 
     text-decoration: none;
     cursor: default;
     padding-top: 10px;
-    padding-left: 130px;
+    padding-left: 140px;
     text-shadow: none;
+    z-index: 99;
+    position: relative;
 }
 .horde-navipoint {
     float: left;
 }
 
 .horde-navipoint:hover .horde-point-center a {
-    color: #7eaa42;
+    color: var(--on-primary);
 }
 .horde-point-left {
     float: left;
     width: 10px;
     height: 34px;
+    display: none;
 }
 .horde-point-center, .horde-point-center-active {
   background-image: none;
-  background-color: var(--primary);
+/*  background-color: var(--primary);*/
   transition: 0.5s;
-  padding: 8px 0 0 16px;
+/*  padding: 8px 0 0 16px;*/
 }
 
 .horde-point-arrow-active {
@@ -1835,6 +1846,7 @@ height: 1px;
     float: left;
     width: 10px;
     height: 34px;
+    display: none;
 }
 .horde-point-left-active {
     float: left;
@@ -1842,10 +1854,11 @@ height: 1px;
     height: 34px;
     background-image: none;
     background-repeat: no-repeat;
+    display:none;
 }
 
 .horde-point-center-active {
-    border-bottom: 1px solid var(--on-primary) !important;
+    border-bottom: 4px solid var(--on-primary) !important;
 
 }
 
@@ -1863,6 +1876,7 @@ height: 1px;
     height: 34px;
     background-image: none;
     background-repeat: no-repeat;
+    display: none;
 }
 .horde-settings {
     float: left;
