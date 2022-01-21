@@ -3,8 +3,8 @@
  */
 
 input[type="submit"], input[type="button"], input[type="reset"] {
-    padding: 3px 10px;
+  /*    padding: 3px 10px; */
 }
 input.horde-cancel {
-    padding: 3px 0;
+  /*  padding: 3px 0; */
 }
