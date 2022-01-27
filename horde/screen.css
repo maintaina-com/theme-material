@@ -847,7 +847,7 @@ div.logintasks-item input {
       fix cut of top drown menus in webmail
 
     */
-    min-height: 300px;
+    min-height: 600px;
 }
 #horde-body {
     border-bottom: 1px solid #cfcfcf;
@@ -863,7 +863,11 @@ div.logintasks-item input {
     top: 82px;
     bottom: 0;
     border-bottom-width: 0;
+    /*
+    krueger test
     border: 1px solid red;
+
+    */
 }
 #horde-contentwrapper {
     float: left;
@@ -2126,6 +2130,7 @@ height: 1px;
     float: right;
     width: 350px;
     padding: 0 20px 0 0;
+    margin: 5px;
 }
 #horde-search form {
     display: inline;
@@ -2139,11 +2144,23 @@ height: 1px;
     border: 0;
     float: left;
     margin: 10px 0px 0px 0px;
+
+    /*
+      kruege@b1-systems.de
+      fix collapse os search field
+    */
+    overflow: hidden;
+    border-radius: 4px;
+
+
 }
 
 #horde-search-input, input, select {
     /* height: 30px; */
 }
+
+
+
 
 #horde-search #horde-search-input {
     width: 190px;
@@ -2163,14 +2180,24 @@ height: 1px;
     width: 16px;
 }
 #horde-search-icon {
+    /*
+    krueger@b1-systems.de
+    correct icon position
+
     float: left;
     margin: 7px 0 0 0;
+
+    */
+    float: left;
+    margin: 17px 0 0 10px;
+
+
 }
 #horde-logout, #horde-login {
     float: right;
     width: 20px;
     height: 29px;
-    margin: 6px 10px 0 0;
+    margin: 20px 10px 0 0;
     background-image: url("graphics/logout.png");
     background-repeat: no-repeat;
 }
