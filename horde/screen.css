@@ -1796,8 +1796,14 @@ a.horde-mainnavi:link, a.horde-mainnavi:visited, a.horde-mainnavi:active {
 
 .horde-point-center:hover, .horde-navipoint:hover {
   background-image: none;
-  background-color: var(--primary-variant);
+  background-color: var(--primary);
 }
+
+.horde-point-center:hover > a {
+  color: var(--secondary)
+}
+
+
 
 .horde-dropdown ul {
   background-image: none;
@@ -1828,8 +1834,9 @@ a.horde-mainnavi-active:active {
 }
 
 horde-point-center:hover, a.horde-mainnavi:hover, a.horde-mainnavi-active:link, a.horde-mainnavi-active:visited, a.horde-mainnavi-active:active {
-  color: var(--on-primary)
+  color: var(--on-primary);
 }
+
 
 .horde-dropdown {
     float: left;
@@ -1927,11 +1934,14 @@ horde-point-center:hover, a.horde-mainnavi:hover, a.horde-mainnavi-active:link, 
     color: var(--on-primary);
     text-shadow: none !important;
 }
+
+
+
 #horde-navigation {
     float: left;
     font-size: 110%;
     color: #fff;
-    font-weight: bold;
+    font-weight: normal;
     text-decoration: none;
     cursor: default;
     padding-top: 10px;
@@ -1939,14 +1949,34 @@ horde-point-center:hover, a.horde-mainnavi:hover, a.horde-mainnavi-active:link, 
     text-shadow: none;
     z-index: 99;
     position: relative;
+
+
 }
 .horde-navipoint {
     float: left;
 }
 
+
+/*
+  krueger@b1-systems.de
+  correct top menu hover effects
+*/
+
 .horde-navipoint:hover .horde-point-center a {
-    color: var(--on-primary);
+    color: var(--secondary);
+    background-color: var(--primary);
 }
+
+.horde-navipoint:hover .horde-point-center a {
+    color: var(--secondary);
+    background-color: var(--primary);
+}
+
+.horde-navipoint:hover .horde-point-center-active a {
+    color: var(--secondary-variant);
+    background-color: var(--primary);
+}
+
 .horde-point-left {
     float: left;
     width: 10px;
@@ -2038,7 +2068,7 @@ height: 1px;
 
 .horde-point-center .horde-point-center-active {
     background-image: none;
-    background-color: var(--primary);
+    background-color: red;
     transition: 0.5s;
     float: left;
     height: 26px;
