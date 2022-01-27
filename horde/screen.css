@@ -842,6 +842,12 @@ div.logintasks-item input {
 /* Main body. */
 .horde-ajax {
     overflow: hidden;
+    /*
+      krueger@b1-systems.de
+      fix cut of top drown menus in webmail
+
+    */
+    min-height: 300px;
 }
 #horde-body {
     border-bottom: 1px solid #cfcfcf;
@@ -849,11 +855,15 @@ div.logintasks-item input {
     position: relative;
     width: 100%;
 }
+
+
 .horde-ajax #horde-body {
+
     position: absolute;
-    top: 56px;
+    top: 82px;
     bottom: 0;
     border-bottom-width: 0;
+    border: 1px solid red;
 }
 #horde-contentwrapper {
     float: left;
@@ -2246,6 +2256,7 @@ height: 1px;
     font-size: 140%;
 
 /*
+krueger@b1-systems.de
     Overwrite horde-new from default-theme
 
     background-image: url("graphics/sidebar-new-bg.png");
