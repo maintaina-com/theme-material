@@ -1954,19 +1954,28 @@ horde-point-center:hover, a.horde-mainnavi:hover, a.horde-mainnavi-active:link, 
     background-image: none;
 }
 
+/*
+  kruger@b1-systems.de
+  correct logo position
+*/
+
 #horde-logo {
     float: left;
     width: 88px;
     height: 34px;
     background-image: url("graphics/logo.png") !important;
-    position:absolute;
+    position: absolute;
+    left:50px;
     background-repeat: no-repeat;
+
+
+
 }
 #horde-version {
     float: left;
     height: 16px;
-    margin-top: 10px;
-    margin-left: 8px;
+    margin-top: 15px;
+    margin-left: 55px;
     padding: 18px 10px 0px 0px;
     font-style: normal;
     color: var(--on-primary);
@@ -1983,6 +1992,8 @@ horde-point-center:hover, a.horde-mainnavi:hover, a.horde-mainnavi-active:link, 
     text-decoration: none;
     cursor: default;
     padding-top: 10px;
+
+
     padding-left: 140px;
     text-shadow: none;
     z-index: 99;
@@ -2197,6 +2208,12 @@ height: 1px;
     float: right;
     width: 20px;
     height: 29px;
+
+    /*
+    krueger@b1-systems.de
+    correct icon position
+    */
+
     margin: 20px 10px 0 0;
     background-image: url("graphics/logout.png");
     background-repeat: no-repeat;
@@ -2229,15 +2246,18 @@ height: 1px;
     height: 20px;
     background-color: #333333;
     visibility: none;
+    font-size: 0.8em;
+
 }
+
 #horde-date {
     float: left;
-    padding: 2px 0 0 10px;
+    /* padding: 2px 0 5px 10px; */
     color: #fff;
 }
 #horde-info {
     float: right;
-    padding: 2px 10px 0 0;
+    /* padding: 2px 10px 0 0; */
     color: #fff;
 }
 #horde-info a {
@@ -2250,7 +2270,15 @@ height: 1px;
     top: 0;
     right: 0;
     bottom: 0;
+
+    /*
+    kruege@b1-systems.de
+    correct new width of sidebar
     left: 0;
+
+    */
+
+    left: 234px !important;
     padding-left: 8px;
 }
 
