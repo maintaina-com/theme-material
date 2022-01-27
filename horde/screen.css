@@ -366,8 +366,6 @@ small, .small {
 
 }
 
-
-
 .horde-form .horde-form-buttons {
     padding-left: 15%;
 }
@@ -427,31 +425,19 @@ input[type="submit"], input[type="button"], input[type="reset"],
 a.horde-button, a.horde-default, a.horde-create, a.horde-delete {
 
     /*
-    background-image: url("graphics/button.png");
-    background-repeat: repeat-x;
-    border: 1px solid #d0d0d0;
-    padding: 4px 13px;
-    color: #000;
-    cursor: pointer;
+
+      krueger@b1-sysrtems.de
+      modify buttons
 
     */
 
-    /* OVERWRITE DEFAUTL */
 
     background-image: none !important;
     border: none;
     display: inline-block;
-
-
     padding: 10px 22px 5px 22px !important;
-
-
-	text-decoration: none;
-	background-color: var(--primary);
-	box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px -1px, rgba(0, 0, 0, 0.14) 0px 4px 5px 0px, rgba(0, 0, 0, 0.12) 0px 1px 10px 0px;
-
-
-
+    text-decoration: none;
+    background-color: var(--primary);
     font-weight: 500;
     font-size: 0.9375rem;
     line-height: 1.75;
@@ -460,14 +446,70 @@ a.horde-button, a.horde-default, a.horde-create, a.horde-delete {
     min-width: 64px;
     border-radius: 4px;
     margin: 24px 8px 16px;
-
-
-
-
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px -1px, rgba(0, 0, 0, 0.14) 0px 4px 5px 0px, rgba(0, 0, 0, 0.12) 0px 1px 10px 0px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 
 
+    /*
+      display: inline-flex;
+            -moz-box-align: center;
+            align-items: center;
+            -moz-box-pack: center;
+            justify-content: center;
+            position: relative;
+            box-sizing: border-box;
+            outline: currentcolor none 0px;
+            border: 0px none;
+            cursor: pointer;
+            user-select: none;
+            vertical-align: middle;
+            appearance: none;
+            text-decoration: none;
+            font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+            font-weight: 500;
+            font-size: 0.9375rem;
+            line-height: 1.75;
+            letter-spacing: 0.02857em;
+            text-transform: uppercase;
+            min-width: 64px;
+            padding: 8px 22px;
+            border-radius: 4px;
+            transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+            color: rgb(255, 255, 255);
+            background-color: rgb(25, 118, 210);
+            box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 1px -2px, rgba(0, 0, 0, 0.14) 0px 2px 2px 0px, rgba(0, 0, 0, 0.12) 0px 1px 5px 0px;
+            width: 100%;
+            margin: 24px 8px 16px;
+    */
+
+
+
+
+
+
+}
+
+
+input[type="submit"]:hover, input[type="button"]:hover, input[type="reset"]:hover,
+a.horde-button:hover, a.horde-default:hover, a.horde-create:hover, a.horde-delete:hover {
+
   /*
+    krueger@b1-systems.de
+    add hover for buttons
+
+      */
+
+	text-decoration: none;
+	background-color: var(--primary-variant);
+	box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px -1px, rgba(0, 0, 0, 0.14) 0px 4px 5px 0px, rgba(0, 0, 0, 0.12) 0px 1px 10px 0px;
+}
+
+
+
+
+
+}
+
 
 
 
@@ -476,47 +518,6 @@ a.horde-button, a.horde-default, a.horde-create, a.horde-delete {
 	background-color: rgb(21, 101, 192);
 	box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px -1px, rgba(0, 0, 0, 0.14) 0px 4px 5px 0px, rgba(0, 0, 0, 0.12) 0px 1px 10px 0px;
 }
-
-
-  display: inline-flex;
-        -moz-box-align: center;
-        align-items: center;
-        -moz-box-pack: center;
-        justify-content: center;
-        position: relative;
-        box-sizing: border-box;
-        outline: currentcolor none 0px;
-        border: 0px none;
-        cursor: pointer;
-        user-select: none;
-        vertical-align: middle;
-        appearance: none;
-        text-decoration: none;
-        font-family: "Roboto", "Helvetica", "Arial", sans-serif;
-        font-weight: 500;
-        font-size: 0.9375rem;
-        line-height: 1.75;
-        letter-spacing: 0.02857em;
-        text-transform: uppercase;
-        min-width: 64px;
-        padding: 8px 22px;
-        border-radius: 4px;
-        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-        color: rgb(255, 255, 255);
-        background-color: rgb(25, 118, 210);
-        box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 1px -2px, rgba(0, 0, 0, 0.14) 0px 2px 2px 0px, rgba(0, 0, 0, 0.12) 0px 1px 5px 0px;
-        width: 100%;
-        margin: 24px 8px 16px;
-*/
-
-
-
-
-
-}
-
-
-
 
 
 
