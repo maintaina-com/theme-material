@@ -398,6 +398,38 @@ input, select, textarea {
 }
 
 
+
+
+
+input[type=text] {
+
+
+
+	font: inherit;
+	letter-spacing: inherit;
+	color: currentColor;
+	box-sizing: content-box;
+	background: none;
+	height: 1.4375em;
+	margin: 0;
+	-webkit-tap-highlight-color: transparent;
+	display: block;
+	min-width: 0;
+	width: 100%;
+	padding: 16.5px 14px;
+  placeholder: Tags;
+
+/*
+
+  -webkit-animation-name: mui-auto-fill-cancel;
+	animation-name: mui-auto-fill-cancel;
+	-webkit-animation-duration: 10ms;
+	animation-duration: 10ms;
+
+*/
+
+}
+
 input, select {
     min-height: 20px;
 }
@@ -417,18 +449,16 @@ input:focus, textarea:focus, select:focus {
     border-color: #000;
 
     */
-    border: 1px solid rgba(0, 0, 0, 0.12);
-
+    border: 1px solid #000;
 }
+
 
 input[type="submit"], input[type="button"], input[type="reset"],
 a.horde-button, a.horde-default, a.horde-create, a.horde-delete {
 
     /*
-
       krueger@b1-sysrtems.de
       modify buttons
-
     */
 
 
@@ -483,10 +513,6 @@ a.horde-button, a.horde-default, a.horde-create, a.horde-delete {
     */
 
 
-
-
-
-
 }
 
 
@@ -497,37 +523,12 @@ a.horde-button:hover, a.horde-default:hover, a.horde-create:hover, a.horde-delet
     krueger@b1-systems.de
     add hover for buttons
 
-      */
+  */
 
 	text-decoration: none;
 	background-color: var(--primary-variant);
 	box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px -1px, rgba(0, 0, 0, 0.14) 0px 4px 5px 0px, rgba(0, 0, 0, 0.12) 0px 1px 10px 0px;
 }
-
-
-
-
-
-}
-
-
-
-
-.css-2mevot:hover {
-	text-decoration: none;
-	background-color: rgb(21, 101, 192);
-	box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px -1px, rgba(0, 0, 0, 0.14) 0px 4px 5px 0px, rgba(0, 0, 0, 0.12) 0px 1px 10px 0px;
-}
-
-
-
-
-
-
-
-
-
-
 
 a.horde-button, a.horde-default, a.horde-create, a.horde-delete, a.horde-cancel {
     display: inline-block;
