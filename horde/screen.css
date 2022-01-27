@@ -31,7 +31,20 @@
 body, input, select, textarea, .inProgress {
     /* font-family: Arial,"DejaVu Sans",sans-serif; */
     font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+
+    /* background-color: white; */
+
 }
+
+/*
+input, select, textarea {
+	font-size: 100%;
+	font-weight: normal;
+	border: 1px solid #d0d0d0;
+}
+
+*/
+
 
 
 body {
@@ -335,11 +348,26 @@ small, .small {
 .horde-form td {
     padding-bottom: 5px;
 }
+
+
 .horde-form-buttons {
     padding: 10px;
     margin: 10px 0;
-    background-color: #ebeff0;
+
+    /*
+      krueger@b1systems.de
+      correct border and background for button panel notices
+
+      background-color: #ebeff0;
+    */
+    background-color: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    border-radius: var(--corner-radius);
+
 }
+
+
+
 .horde-form .horde-form-buttons {
     padding-left: 15%;
 }
@@ -357,11 +385,15 @@ small, .small {
 input, select, textarea {
     font-size: 100%;
     font-weight: normal;
-    background-color: #ebeff0;
 
 /*
+    krueger@b1systems.de
+    correct border and background for textarea
+
+    background-color: #ebeff0;
     border: 1px solid #d0d0d0;
 */
+    background-color: #fff;
     border: 1px solid rgba(0, 0, 0, 0.12);
     border-radius: var(--corner-radius);
 
@@ -377,9 +409,18 @@ input, option {
 select {
     padding: 2px 0 0 2px;
 }
+
+
 input:focus, textarea:focus, select:focus {
     background-color: #fff;
+    /*
+    krueger@b1-systems.de
+    remove black border
     border-color: #000;
+
+    */
+    border: 1px solid rgba(0, 0, 0, 0.12);
+
 }
 
 input[type="submit"], input[type="button"], input[type="reset"],
