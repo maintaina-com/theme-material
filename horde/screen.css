@@ -2273,9 +2273,28 @@ krueger@b1-systems.de
 
 
 /*
+    krueger@b1-systems.de
     Simulate MUI
 */
+min-width: 64px;
+padding: 8px 12px;
+border-radius: 4px;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+color: rgb(255, 255, 255);
+background-color: var(--primary-variant);
+box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 1px -2px, rgba(0, 0, 0, 0.14) 0px 2px 2px 0px, rgba(0, 0, 0, 0.12) 0px 1px 5px 0px;
+margin: 4px 20px;
 
+
+font-weight: 500;
+font-size: 0.9375rem;
+line-height: 1.75;
+letter-spacing: 0.02857em;
+text-transform: uppercase;
+
+
+
+/*
 	display: inline-flex;
 	-moz-box-align: center;
 	align-items: center;
@@ -2289,12 +2308,17 @@ krueger@b1-systems.de
 	user-select: none;
 	vertical-align: middle;
 	appearance: none;
+
+
 	font-weight: 500;
 	font-size: 0.9375rem;
 	line-height: 1.75;
 	letter-spacing: 0.02857em;
 	text-transform: uppercase;
-	min-width: 64px;
+
+
+
+  min-width: 64px;
 	padding: 8px 22px;
 	border-radius: 4px;
 	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
@@ -2302,6 +2326,9 @@ krueger@b1-systems.de
 	background-color: var(--primary-variant);
 	box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 1px -2px, rgba(0, 0, 0, 0.14) 0px 2px 2px 0px, rgba(0, 0, 0, 0.12) 0px 1px 5px 0px;
 	margin: 4px 20px;
+
+*/
+
 
     /*
     width: 100%;
@@ -2327,8 +2354,13 @@ krueger@b1-systems.de
     margin-right: 10px;
 }
 #horde-sidebar .horde-new-link a, .horde-new-link a {
+
+/*
     padding-left: 28px;
     margin: 5px 10px 0 10px;
+*/
+    white-space: nowrap;
+
     color: #fff;
     display: block;
     background-color: var(--primary-variant);
@@ -2372,20 +2404,36 @@ krueger@b1-systems.de
 
 
 .horde-new-split {
+  visibility: hidden;
+
+/*
+    krueger@b1-systems.de
+    remove additinal icons in new button
+
     float: right;
     width: 2px;
     height: 29px;
     margin-left: 10px;
     background-image: url("graphics/sidebar-split.png");
     background-repeat: no-repeat;
+*/
+
 }
 .horde-new-extra {
+  visibility: hidden;
+/*
+krueger@b1-systems.de
+remove additinal icons in new button
+
+    display: none;
     float: right;
     width: 20px;
     height: 24px;
     margin: 5px 6px 0 7px;
     background-image: url("graphics/sidebar-refresh.png");
     background-repeat: no-repeat;
+*/
+
 }
 .horde-new-extra a {
     display: block;
@@ -2506,6 +2554,8 @@ krueger@b1-systems.de
 	line-height: 1.5;
 	letter-spacing: 0.00938em;
 
+
+
 	background-color: transparent;
 	outline: currentcolor none 0px;
 	border: 0px none;
@@ -2529,7 +2579,6 @@ krueger@b1-systems.de
 	text-align: left;
 	padding: 8px 16px;
 	transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-
 
 
 
