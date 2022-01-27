@@ -1874,10 +1874,15 @@ horde-point-center:hover, a.horde-mainnavi:hover, a.horde-mainnavi-active:link, 
     background-repeat: no-repeat;
     background-position: center right;
 }
+
+/*
+  krueger@b1-systems.de
+  correct position in top drop down menus
+*/
 .horde-dropdown li ul {
     position: absolute;
     display: none;
-    top: 34px;
+    top: 60px;
     margin-left: -20px;
     border: 1px solid var(--on-primary);
     background-color: var(--primary-variant);
@@ -1890,20 +1895,39 @@ horde-point-center:hover, a.horde-mainnavi:hover, a.horde-mainnavi-active:link, 
     margin-left: 100%;
     top: 24px;
 }
+
+/*
+  krueger@b1-systems.de
+  avoid collapse of drop down menus
+*/
+
+.horde-dropdown > li:hover {
+  overflow: hidden;
+  height: 50px;
+
+}
+
 .horde-dropdown li:hover ul, .horde-dropdown li.over ul {
     display: block;
 }
+
 .horde-dropdown li:hover ul ul, .horde-dropdown li.over ul ul {
     display: none;
 }
 .horde-dropdown ul li:hover ul, .horde-dropdown ul li.over ul {
     display: block;
 }
+
+/*
+  krueger@b1-systems.de
+  correct paddings of drop down menu points
+*/
 .horde-drowdown-str {
-    height: 19px;
-    padding: 5px 15px 0px 0px;
-    margin: 0 0 0 10px;
+	height: 19px;
+	padding: 5px 30px 10px 15px;
+	margin: 0 0 0 10px;
 }
+
 .horde-drowdown-str:hover a {
     color: var(--on-primary);
 }
