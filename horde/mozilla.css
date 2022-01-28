@@ -8,3 +8,12 @@ input[type="submit"], input[type="button"], input[type="reset"] {
 input.horde-cancel {
   /*  padding: 3px 0; */
 }
+
+
+input:focus, textarea:focus, select:focus {
+    /*
+    krueger@b1-systems.de
+    disable mozilla outline
+    */
+    outline: none;
+}
