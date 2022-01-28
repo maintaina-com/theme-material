@@ -2541,6 +2541,13 @@ remove additinal icons in new button
 }
 #horde-sidebar div.horde-resources div {
     margin: 5px 0;
+
+    /*
+        krueger@b1-systems.de
+        correct color
+    */
+    color: rgb(0, 0, 0);
+
 }
 .horde-resource-link {
     overflow: hidden;
@@ -2738,38 +2745,19 @@ remove additinal icons in new button
 }
 
 */
-
-
-
-
-
-
-
-
 }
-
-
-
-
 .horde-subnavi-active, .horde-subnavi:hover {
-
-
     /*
+    krueger@b1-systems.de
     overwrite default theme
     height: 20px;
     background-image: url("graphics/sidebar-active-bg.png");
     background-repeat: repeat-x;
-
     */
     height: 60px;
     background-image: none;
     background-color: rgba(0, 0, 0, 0.04);
-
-
 }
-
-
-
 .horde-subnavi-icon {
     background-color: transparent;
     background-repeat: no-repeat;
