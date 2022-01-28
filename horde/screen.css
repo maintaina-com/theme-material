@@ -1993,8 +1993,15 @@ horde-point-center:hover, a.horde-mainnavi:hover, a.horde-mainnavi-active:link, 
     cursor: default;
     padding-top: 10px;
 
+    /*
+      kruger@b1-systems.de
+      correct navigation position
+      padding-left: 140px;
 
-    padding-left: 140px;
+
+    */
+
+    padding-left: 40px;
     text-shadow: none;
     z-index: 99;
     position: relative;
@@ -2278,7 +2285,7 @@ height: 1px;
 
     */
 
-    left: 234px !important;
+    left: 233px !important;
     padding-left: 8px;
 }
 
@@ -2545,7 +2552,14 @@ remove additinal icons in new button
     cursor: pointer;
     background-position: 10px 2px;
     background-repeat: no-repeat;
+
+    /*
+        krueger@b1-systems.de
+        correct backgrounds for sidebar in calendar
+    */
+    color: rgb(0, 0, 0);
 }
+
 .horde-resource-on:hover, .horde-resource-off:hover {
     text-decoration: underline;
 }
@@ -2554,6 +2568,7 @@ remove additinal icons in new button
 }
 .horde-resource-off {
     background-image: url("graphics/checkbox_off.png");
+
 }
 .horde-resource-on.horde-radiobox, .horde-resource-off.horde-radiobox:hover {
     background-image: url("graphics/radiobox_on.png");
@@ -2573,9 +2588,21 @@ remove additinal icons in new button
     overflow: hidden;
     cursor: pointer;
 }
-#horde-sidebar div.horde-resources .horde-resource-edit-fff {
+
+
+
+
+/*
+    krueger@b1-systems.de
+    correct backgronds for action icons in calendar
+*/
+#horde-sidebar div.horde-resources .horde-resource-edit-fff,
+#horde-sidebar div.horde-resources .horde-resource-refresh-fff {
     background-image: url("graphics/edit-sidebar-fff.png");
+    background-color: rgb(255, 255, 255) !important;
+    color: rgb(255, 255, 255);
 }
+
 #horde-sidebar div.horde-resources div a {
     color: inherit;
 }
@@ -2591,6 +2618,7 @@ remove additinal icons in new button
 }
 
 /*
+    krueger@b1-systems.de
     Wolfgang: 2022-01-19
 
 */
@@ -2762,14 +2790,9 @@ remove additinal icons in new button
     background-color: inherit !important;
     height: 60px;
 }
-
-
-
-
 #horde-sidebar div.horde-resources > div:hover {
     height: 60px;
     background-color: rgba(0, 0, 0, 0.04) !important;
-
 }
 
 
@@ -3107,4 +3130,12 @@ remove additinal icons in new button
     #Growler, #GrowlerLog {
         display: none !important;
     }
+}
+
+/*
+  krueger@b1-systems.de
+  correct calndar sidebar scroll menu position
+*/
+#kronolithMenu {
+	top: 300px !important;
 }
