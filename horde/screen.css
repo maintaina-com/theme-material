@@ -3130,7 +3130,7 @@
             top: 82px;
             */
     
-            top:10%;
+            top:11%;
             bottom: 0;
             border-bottom-width: 0;
             /*
@@ -3210,7 +3210,7 @@
     }
     
         
-    }
+    
     @media only screen and (max-width:1230px) {
         
         #horde-logo {
