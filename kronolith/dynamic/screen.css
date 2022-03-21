@@ -134,7 +134,9 @@ span.kronolithDialogWarning {
 
 /* Event/task form dialogs */
 .kronolithDialog {
-    width: 710px;
+    /*leduy@b1-systems.de
+    width: 710px;*/
+    width:810px;
     padding: 10px 20px;
     border: 1px #999 solid;
 }
@@ -161,6 +163,7 @@ span.kronolithDialogWarning {
 .kronolithDialog select:focus {
     border-color: #d0d0d0;
 }
+
 .kronolithLongField,
 #kronolithEventTitle,
 #kronolithTaskTitle,
@@ -173,7 +176,9 @@ span.kronolithDialogWarning {
 #kronolithCalendarresourceName,
 #kronolithCalendarresourcegroupName {
     width: 96%;
-    /*width: 99%;*/
+    /*kleduy@b1-systems.de
+    width: 99%;*/
+
 }
 
 div.kronolithFormActions {
@@ -299,7 +304,9 @@ ul.horde-tags li:hover {
 #kronolithEventTabAttendees td, #kronolithEventTabAttendees th,
 #kronolithEventTabResources td, #kronolithEventTabResources th {
     border: 1px solid #999;
-    font-size: 85%;
+    /*leduy@b1-systems.de
+    font-size: 85%;*/
+    font-size: 74%;
     padding: 1px;
     height: 18px;
     width: 18px;
@@ -311,12 +318,15 @@ ul.horde-tags li:hover {
 }
 #kronolithEventTabAttendees th, #kronolithEventTabResources th {
     text-align: center;
+    /*leduy@b1-systems*/
+    font-size: 10px;
 }
 #kronolithEventTabAttendees th:first-child, #kronolithEventTabResources th:first-child {
     text-align: left;
 }
 #kronolithEventTabAttendees th.night, #kronolithEventTabResources th.night {
     background-color: #ccc;
+    
 }
 
 #kronolithEventAttendeesList, #kronolithEventResourcesList {
@@ -454,6 +464,8 @@ ul.horde-tags li:hover {
 }
 .kronolith-view-head .kronolith-all-day {
     background-color: #fff;
+    /*leduy@b1-systems*/
+    height:100px;
 }
 .kronolith-view-head .kronolith-all-day td {
     padding: 0;
@@ -476,7 +488,9 @@ ul.horde-tags li:hover {
 #kronolithViewYear .kronolith-minical {
     float: left;
     margin: 10px 0 0 10px;
-    height: 201px;
+    
+    /*leduy@b1-systems.de
+    height: 221px;*/
 }
 #kronolithViewYear .kronolithLoading {
     left: 10px;
@@ -615,6 +629,7 @@ ul.horde-tags li:hover {
 }
 
 /* Main view agenda. */
+
 #kronolithViewAgenda table {
     border: 1px solid #a6afb1;
     border-top-width: 0;
@@ -825,6 +840,7 @@ div.kronolithEditable:hover .kronolithDragger,
 
 /* Redbox styles. */
 #RB_window {
+   /* top:3% !important;*/
     top: 50px !important;
     margin-top: 0 !important;
 }
@@ -964,4 +980,9 @@ div.kronolithEditable:hover .kronolithDragger,
         overflow-x: hidden;
         overflow-y: auto;
     }
+}
+
+.kronolithViewBody table.kronolith-view tr{
+    background-color: #fff;
+    height:50px;
 }

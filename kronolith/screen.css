@@ -5,6 +5,7 @@
     padding-right: 18px;
     text-indent: -10000px;
 }
+
 .horde-buttonbar a.kronolithNext {
     background-image: url("graphics/right.png");
 }
@@ -15,9 +16,9 @@
     background-image: url("graphics/tasks.png");
 }
 #kronolithNavAgenda {
-    /*
+    
     background-image: url("graphics/agenda.png");
-    */
+    
 }
 #kronolithNavDay {
     background-image: url("graphics/dayview.png");
