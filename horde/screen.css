@@ -414,7 +414,7 @@
         min-width: 0;
         width: calc(100% - 28px);
         padding: 16.5px 14px;
-        placeholder: Tags;
+        
     
     /*
       -webkit-animation-name: mui-auto-fill-cancel;
@@ -467,9 +467,9 @@
         line-height: 1.75;
         letter-spacing: 0.02857em;
         text-transform: uppercase;
-        min-width: 64px;
+       /* min-width: 64px;*/
         border-radius: 4px;
-        margin: 24px 8px 16px;
+       /* margin: 24px 8px 16px;*/
         box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px -1px, rgba(0, 0, 0, 0.14) 0px 4px 5px 0px, rgba(0, 0, 0, 0.12) 0px 1px 10px 0px;
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
     
@@ -548,8 +548,8 @@
         background: transparent;
         border-style: none;
         color: #496f7e;
-        padding: 3px;
-        text-decoration: underline;
+        /*padding: 3px;
+        text-decoration: underline;*/
     }
     a.horde-cancel {
         color: #496f7e;
@@ -1893,11 +1893,11 @@
     .horde-dropdown li ul {
         position: absolute;
         display: none;
-        top: 60px;
-        margin-left: -20px;
+        top: 50px;
+        /*margin-left: -20px;*/
         border: 1px solid var(--on-primary);
         background-color: var(--primary-variant);
-        padding-top: 9px;
+       /* padding-top: 9px;*/
         z-index: 10;
         min-width: 120px;
     }
@@ -1936,7 +1936,7 @@
     .horde-drowdown-str {
         height: 19px;
         padding: 5px 30px 10px 15px;
-        margin: 0 0 0 10px;
+        /*margin: 0 0 0 10px;*/
     }
     
     .horde-drowdown-str:hover a {
@@ -2147,7 +2147,7 @@
         float: left;
         width: 22px;
         height: 27px;
-        margin: 7px 0 0 0;
+        margin: 3px 0 0 0;
     }
     #horde-search {
         float:right;
@@ -2377,7 +2377,7 @@
     }
     
     .horde-new {
-        height: 29px;
+        /*height: 29px;*/
         /* border-bottom: 1px solid #787878; */
         overflow: hidden;
         font-size: 140%;
@@ -2402,7 +2402,7 @@
         Simulate MUI
     */
     min-width: 64px;
-    padding: 8px 12px;
+    padding: 15px 20px;
     border-radius: 4px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
     color: rgb(255, 255, 255);
@@ -2509,7 +2509,8 @@
     
     }
     .horde-new-extra {
-      visibility: hidden;
+     /* visibility: hidden;*/
+      display: none;
     /*
     krueger@b1-systems.de
     remove additinal icons in new button
@@ -2971,14 +2972,15 @@
     .horde-buttonbar li {
         float: left;
         height: 22px;
-        padding-top: 8px;
+        /*padding-top: 8px;*/
+        padding:5px 0;
         background-image: url("graphics/button-split.png");
         background-repeat: no-repeat;
         background-position: right top;
     }
     .horde-buttonbar li.horde-icon {
         margin: 0;
-        padding: 8px 0 0 0;
+        padding: 5px 0;
         background-position: right top;
     }
     .horde-buttonbar li a, .horde-buttonbar li span, .horde-buttonbar li select {
@@ -3204,7 +3206,7 @@
     }
     
         
-    }
+    
     @media only screen and (max-width:1230px) {
         
         #horde-logo {
