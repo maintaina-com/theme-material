@@ -3130,7 +3130,7 @@
             top: 82px;
             */
     
-            top:10%;
+            top:9.5%;
             bottom: 0;
             border-bottom-width: 0;
             /*
@@ -3158,6 +3158,13 @@
             options to prevent overflow through positioning:absolute
             */
         }
+        .horde-navipoint:last-child .horde-dropdown ul li ul {
+            margin-top: -25px;
+            margin-left: 100%;
+            top: 24px;
+            right: 312px;
+        }
+   
     
     }
 
@@ -3205,6 +3212,12 @@
             */
         }
 
+        .horde-navipoint:last-child .horde-dropdown ul li ul {
+            margin-top: -25px;
+            margin-left: 100%;
+            top: 24px;
+            right: 265px;
+        }
        
 
     }
@@ -3259,6 +3272,13 @@
         
         }
         
+        .horde-navipoint:last-child .horde-dropdown ul li ul {
+            margin-top: -25px;
+            margin-left: 100%;
+            top: 24px;
+            right: 244px;
+        }
+        
     }
     
   
@@ -3289,7 +3309,7 @@
     
         #horde-navigation {
             float: left;
-            font-size: 85+%;
+            font-size: 85%;
             color: #fff;
             font-weight: normal;
             text-decoration: none;
@@ -3330,6 +3350,13 @@
             options to prevent overflow through positioning:absolute
             */
         } 
+
+        .horde-navipoint:last-child .horde-dropdown ul li ul {
+            margin-top: -25px;
+            margin-left: 100%;
+            top: 24px;
+            right: 254px;
+        }
        
     }
    
@@ -3340,7 +3367,7 @@
         height:100%;
         
     }
-    }
+    
     
     /* Print CSS. */
     @media print {
