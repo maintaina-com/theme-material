@@ -467,9 +467,15 @@
         line-height: 1.75;
         letter-spacing: 0.02857em;
         text-transform: uppercase;
+<<<<<<< HEAD
        /* min-width: 64px;*/
         border-radius: 4px;
        /* margin: 24px 8px 16px;*/
+=======
+        /*min-width: 64px;*/
+        border-radius: 4px;
+        /*margin: 24px 8px 16px;*/
+>>>>>>> upstream/FRAMEWORK_6_0
         box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px -1px, rgba(0, 0, 0, 0.14) 0px 4px 5px 0px, rgba(0, 0, 0, 0.12) 0px 1px 10px 0px;
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
     
@@ -548,8 +554,13 @@
         background: transparent;
         border-style: none;
         color: #496f7e;
+<<<<<<< HEAD
         /*padding: 3px;
         text-decoration: underline;*/
+=======
+       /* padding: 3px;*/
+       /* text-decoration: underline;*/
+>>>>>>> upstream/FRAMEWORK_6_0
     }
     a.horde-cancel {
         color: #496f7e;
@@ -557,7 +568,12 @@
         text-decoration: underline;
     }
     input.horde-cancel:hover, a.horde-cancel:hover {
+<<<<<<< HEAD
         text-decoration: none;
+=======
+       /* text-decoration: none;*/
+       background-color:#eaeaea;
+>>>>>>> upstream/FRAMEWORK_6_0
     }
     form[action^="https://"] input[type="submit"].horde-default {
         background-image: url("graphics/locked-inv.png"), url("graphics/button-default.png");
@@ -1893,8 +1909,13 @@
     .horde-dropdown li ul {
         position: absolute;
         display: none;
+<<<<<<< HEAD
         top: 50px;
         /*margin-left: -20px;*/
+=======
+        top: 60px;
+       /* margin-left: -20px;*/
+>>>>>>> upstream/FRAMEWORK_6_0
         border: 1px solid var(--on-primary);
         background-color: var(--primary-variant);
        /* padding-top: 9px;*/
@@ -1936,7 +1957,11 @@
     .horde-drowdown-str {
         height: 19px;
         padding: 5px 30px 10px 15px;
+<<<<<<< HEAD
         /*margin: 0 0 0 10px;*/
+=======
+       /* margin: 0 0 0 10px;*/
+>>>>>>> upstream/FRAMEWORK_6_0
     }
     
     .horde-drowdown-str:hover a {
@@ -2144,10 +2169,18 @@
         display: none;
     }
     .horde-settings {
+<<<<<<< HEAD
         float: left;
         width: 22px;
         height: 27px;
         margin: 3px 0 0 0;
+=======
+        /*float: left;*/
+        width: 22px;
+        height: 27px;
+       /* margin: 7px 0 0 0;*/
+       margin: 3px 0 0 0;
+>>>>>>> upstream/FRAMEWORK_6_0
     }
     #horde-search {
         float:right;
@@ -2377,7 +2410,11 @@
     }
     
     .horde-new {
+<<<<<<< HEAD
         /*height: 29px;*/
+=======
+       /* height: 29px;*/
+>>>>>>> upstream/FRAMEWORK_6_0
         /* border-bottom: 1px solid #787878; */
         overflow: hidden;
         font-size: 140%;
@@ -2402,7 +2439,12 @@
         Simulate MUI
     */
     min-width: 64px;
+<<<<<<< HEAD
     padding: 15px 20px;
+=======
+    /*padding: 8px 12px;*/
+    padding:15px 20px;
+>>>>>>> upstream/FRAMEWORK_6_0
     border-radius: 4px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
     color: rgb(255, 255, 255);
@@ -2510,7 +2552,11 @@
     }
     .horde-new-extra {
      /* visibility: hidden;*/
+<<<<<<< HEAD
       display: none;
+=======
+      display:none;
+>>>>>>> upstream/FRAMEWORK_6_0
     /*
     krueger@b1-systems.de
     remove additinal icons in new button
@@ -2540,7 +2586,11 @@
     }
     #horde-sidebar a.horde-add {
         float: right;
+<<<<<<< HEAD
         margin-top: -2px;
+=======
+        margin-top: 2px;
+>>>>>>> upstream/FRAMEWORK_6_0
         height: 17px;
         width: 16px;
         background: transparent url("graphics/plus-sidebar.png") no-repeat right center;
@@ -2872,7 +2922,11 @@
         border-right: 1px solid rgba(0, 0, 0, 0.12);
     }
     
+<<<<<<< HEAD
     }
+=======
+    
+>>>>>>> upstream/FRAMEWORK_6_0
     
     
     
@@ -2972,15 +3026,25 @@
     .horde-buttonbar li {
         float: left;
         height: 22px;
+<<<<<<< HEAD
         /*padding-top: 8px;*/
         padding:5px 0;
+=======
+       /* padding-top: 8px;*/
+       padding:5px 0;
+>>>>>>> upstream/FRAMEWORK_6_0
         background-image: url("graphics/button-split.png");
         background-repeat: no-repeat;
         background-position: right top;
     }
     .horde-buttonbar li.horde-icon {
         margin: 0;
+<<<<<<< HEAD
         padding: 5px 0;
+=======
+        /*padding: 8px 0 0 0;*/
+        padding:5px 0;
+>>>>>>> upstream/FRAMEWORK_6_0
         background-position: right top;
     }
     .horde-buttonbar li a, .horde-buttonbar li span, .horde-buttonbar li select {
@@ -3126,7 +3190,11 @@
             top: 82px;
             */
     
+<<<<<<< HEAD
             top:10%;
+=======
+            top:9.5%;
+>>>>>>> upstream/FRAMEWORK_6_0
             bottom: 0;
             border-bottom-width: 0;
             /*
@@ -3154,6 +3222,16 @@
             options to prevent overflow through positioning:absolute
             */
         }
+<<<<<<< HEAD
+=======
+        .horde-navipoint:last-child .horde-dropdown ul li ul {
+            margin-top: -25px;
+            margin-left: 100%;
+            top: 24px;
+            right: 312px;
+        }
+   
+>>>>>>> upstream/FRAMEWORK_6_0
     
     }
 
@@ -3201,6 +3279,12 @@
             */
         }
 
+        .horde-navipoint:last-child .horde-dropdown ul li ul {
+            margin-top: -25px;
+            margin-left: 100%;
+            top: 24px;
+            right: 265px;
+        }
        
 
     }
@@ -3255,6 +3339,16 @@
         
         }
         
+<<<<<<< HEAD
+=======
+        .horde-navipoint:last-child .horde-dropdown ul li ul {
+            margin-top: -25px;
+            margin-left: 100%;
+            top: 24px;
+            right: 244px;
+        }
+        
+>>>>>>> upstream/FRAMEWORK_6_0
     }
     
   
@@ -3285,7 +3379,11 @@
     
         #horde-navigation {
             float: left;
+<<<<<<< HEAD
             font-size: 80%;
+=======
+            font-size: 85%;
+>>>>>>> upstream/FRAMEWORK_6_0
             color: #fff;
             font-weight: normal;
             text-decoration: none;
@@ -3326,6 +3424,16 @@
             options to prevent overflow through positioning:absolute
             */
         } 
+<<<<<<< HEAD
+=======
+
+        .horde-navipoint:last-child .horde-dropdown ul li ul {
+            margin-top: -25px;
+            margin-left: 100%;
+            top: 24px;
+            right: 254px;
+        }
+>>>>>>> upstream/FRAMEWORK_6_0
        
     }
    
@@ -3336,7 +3444,11 @@
         height:100%;
         
     }
+<<<<<<< HEAD
     }
+=======
+    
+>>>>>>> upstream/FRAMEWORK_6_0
     
     /* Print CSS. */
     @media print {
